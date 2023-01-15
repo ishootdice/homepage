@@ -53,13 +53,13 @@ body {
     margin-left: 30px;
 }
 
-.right__resume__block{
+.right__resume__block {
     border-left: 3px solid var(--border-color);
     max-width: 66.6%;
     padding-right: 30px;
 }
 
-.right__resume__inner__block{
+.right__resume__inner__block {
     border-bottom: 3px solid var(--border-color);
     padding-bottom: 30px;
     margin-bottom: 15px;
@@ -67,7 +67,7 @@ body {
 
 }
 
-.bottom__item{
+.bottom__item {
     border: none;
 }
 
@@ -160,7 +160,7 @@ body {
     border-color: var(--text-decoration-color);
 }
 
-.contact-info__avatar__container{
+.contact-info__avatar__container {
     display: flex;
     justify-content: center;
 }
@@ -208,12 +208,12 @@ body {
     text-align: justify;
 }
 
-.skills__group__header{
+.skills__group__header {
     color: var(--secondary-text-color);
     margin-bottom: 10px;
 }
 
-.skills__group__list{
+.skills__group__list {
     color: var(--secondary-text-color);
     padding-left: 15px;
     margin-bottom: 15px;
@@ -279,7 +279,7 @@ body {
     flex: 1 1 40%;
 }
 
-.additional-info__header{
+.additional-info__header {
     text-align: center;
     color: var(--secondary-text-color);
 }
@@ -295,7 +295,7 @@ body {
     text-decoration-line: underline;
 }
 
-.additional-info__education-university{
+.additional-info__education-university {
     margin-bottom: 15px;
 }
 
@@ -327,42 +327,42 @@ body {
     text-decoration-line: underline;
 }
 
-.languages__group{
+.languages__group {
     margin-left: 15px;
 }
 
-.additional-info__facts-header{
+.additional-info__facts-header {
     color: var(--secondary-text-color);
     text-align: center;
     margin-bottom: 15px;
     margin-top: 10px;
 }
 
-.additional-info__facts-text{
+.additional-info__facts-text {
     color: var(--secondary-text-color);
-    margin-bottom:15px;
+    margin-bottom: 15px;
 }
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
 
-.additional-info__offset{
+.additional-info__offset {
     min-width: 4%;
 }
 
 
-.secondary{
+.secondary {
     color: var(--secondary-text-color);
 }
 
-.timeline__header{
+.timeline__header {
     text-align: center;
     color: var(--secondary-text-color);
     margin-bottom: 15px;
 }
 
-.timeline-date{
+.timeline-date {
     color: var(--primary-text-color);
     font-weight: 700;
     text-align: left;
@@ -372,21 +372,16 @@ body {
     min-width: 100px;
 }
 
-.timeline-group{
+.timeline-group {
     margin-bottom: 10px;
 }
 
-.characteristics-group{
+.characteristics-group {
     margin-bottom: 10px;
     width: 45%;
 }
 
-.characteristics-text{
+.characteristics-text {
     color: var(--secondary-text-color);
     margin-top: 10px;
 }
-
-
-
-
-
