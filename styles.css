@@ -36,6 +36,7 @@ body {
     justify-content: space-between;
 }
 
+
 .resume {
     margin: 50px auto;
     border: 1px solid #f5f5f5;
@@ -95,6 +96,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 .contact-info__block--center {
@@ -106,6 +108,7 @@ body {
     text-decoration: none;
     display: flex;
     justify-content: start;
+    margin-right: 10px;
 }
 
 .contact-info__item:not(:last-child) {
@@ -183,7 +186,7 @@ body {
 /* Experience and additional info styles */
 
 .experiences {
-    flex: 1 1 60%;
+    flex: 1 1 50%;
     margin-right: 50px;
 }
 
@@ -235,6 +238,11 @@ body {
     flex: 1 1 40%;
 }
 
+.additional-info__header{
+    text-align: center;
+    color: var(--secondary-text-color);
+}
+
 .additional-info__education {
     margin-bottom: 20px;
 }
@@ -272,6 +280,57 @@ body {
     margin-bottom: 20px;
 }
 
+.additional-info__facts-header{
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.additional-info__facts-text{
+    color: var(--secondary-text-color);
+    margin-bottom:15px;
+}
+
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
+.additional-info__offset{
+    min-width: 4%;
+}
+
+
+.secondary{
+    color: var(--secondary-text-color);
+}
+
+.timeline__header{
+    text-align: center;
+    color: var(--secondary-text-color);
+    margin-bottom: 15px;
+}
+
+.timeline-date{
+    color: var(--primary-text-color);
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 15px;
+    margin-right: 20px;
+    min-width: 100px;
+}
+
+.timeline-group{
+    margin-bottom: 10px;
+}
+
+.characteristics-group{
+    margin-bottom: 10px;
+}
+
+.characteristics-text{
+    color: var(--secondary-text-color);
+    margin-top: 10px;
+}
+
